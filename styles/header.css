@@ -128,8 +128,25 @@
     height: 25px;
 }
 
+.notifications-icon-container{
+    position: relative;
+}
+
+.notifications-count {
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    font-family: Roboto, Arial;
+    border-radius: 10px;
+    padding: 2px 5px 2px 5px;
+    font-size: 11px;
+    right: 5px;
+}
+
 .notifications-icon{
-    height: 25px;
+    height: 24px;
 }
 
 .current-user-picture{
